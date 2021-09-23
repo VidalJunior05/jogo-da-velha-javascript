@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     display: flex;
     min-height: 100vh;
@@ -16,12 +15,10 @@ body {
     background: linear-gradient(to right, #29323c, #485563); 
     
 }
-
 h1 {
     color: #FFF;
     margin: 20px 0;
 }
-
 .area {
     width: 300px;
     display: grid;
@@ -42,7 +39,6 @@ h1 {
 .item:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
-
 .item.t {
     border-top: 1px solid #FFF;
 }
@@ -55,7 +51,6 @@ h1 {
 .item.b {
     border-bottom: 1px solid #FFF;
 }
-
 .info {
     width: 300px;
     display: flex;
@@ -76,7 +71,6 @@ h1 {
     color: #FFF;
     font-size: 20px;
 }
-
 .reset {
     border: 1px solid #000;
     background-color: rgba(0, 0, 0, 0.2);
